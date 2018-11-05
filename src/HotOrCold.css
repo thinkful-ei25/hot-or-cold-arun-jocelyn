@@ -1,0 +1,68 @@
+.hot-or-cold {
+  text-align: center;
+}
+
+.hot-or-cold li {
+  list-style: none;
+}
+
+.hot-or-cold nav {
+  width: 100%;
+}
+
+.hot-or-cold nav,
+.hot-or-cold nav li {
+  display: inline-block;
+  text-align: left;
+}
+
+.hot-or-cold nav li:last-child {
+  margin-left: 80%;
+}
+
+
+.entry-form {
+  background-color: grey;
+  padding: 20px;
+}
+
+.entry-form input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.entry-form button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.temperature {
+  background-color: red;
+}
+
+.HOC-game {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.number-of-guesses {
+  background-color: lightgrey;
+}
+
+.guess {
+  background-color: teal;
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  color: white;
+}
+
+.guess-list {
+  background-color: yellow;
+}

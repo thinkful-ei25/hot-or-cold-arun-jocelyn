@@ -6,8 +6,6 @@ export default function GuessList(props){
     return <Guess  guess={guess} />
   })
   return (
-    <div className="guess-list">
-    <ul>{guesses}</ul>
-    </div>
+    <ul className="guess-list">{guesses}</ul>
   )
 }
