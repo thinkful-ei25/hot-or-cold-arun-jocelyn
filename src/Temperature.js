@@ -11,7 +11,7 @@ export default function Temperature(props){
       temperature = 'cool'
     } 
   return (
-    <div className="temperature">{temperature}</div>
+    <div className="temperature"><p>{temperature}</p></div>
   )
 }
 

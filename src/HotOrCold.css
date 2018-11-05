@@ -6,53 +6,79 @@
   list-style: none;
 }
 
+.hot-or-cold header {
+  padding: 20px;
+  color: white;
+}
+
 .hot-or-cold nav {
   width: 100%;
 }
 
-.hot-or-cold nav,
+.hot-or-cold nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .hot-or-cold nav li {
-  display: inline-block;
   text-align: left;
 }
-
-.hot-or-cold nav li:last-child {
-  margin-left: 80%;
-}
-
 
 .entry-form {
   background-color: grey;
   padding: 20px;
 }
 
-.entry-form input {
+.entry-form input,
+.entry-form button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 60%;
+  padding: 5px 0;
 }
 
 .entry-form button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
+.entry-form input {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .temperature {
   background-color: red;
+  height: 50px;
+}
+
+.temperature p {
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .HOC-game {
   width: 400px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .number-of-guesses {
   background-color: lightgrey;
+  height: 30px;
+}
+
+.number-of-guesses p {
+  line-height: 30px;
+}
+
+.number-of-guesses em {
+  font-style: normal;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .guess {
@@ -65,4 +91,5 @@
 
 .guess-list {
   background-color: yellow;
+  padding: 20px 0;
 }
